@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "MAV MERN",
+    "mongoUri": "mongodb://user:pass@localhost:27017/",
+    "baseUrl": "http://localhost:5000"
+}

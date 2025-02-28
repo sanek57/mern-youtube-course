@@ -1,0 +1,24 @@
+/* подключиди стили materialize-css из установленного pm пакета */
+@import '~materialize-css/dist/css/materialize.min.css';
+
+
+/* меняем цвета для input со страницы авторизации */
+/* название данных селекторов получил путем поиска в дереве стилей */
+input.yellow-input {
+    /* !important - чтобы цвет из либы перетерся */
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 .3px 0 0 #fff!important;
+}
+
+input.yellow-input + label {
+    color: #fff!important ;
+}
+
+input.yellow-input:focus {
+        border-bottom: 1px solid #ffeb3b!important;
+        box-shadow: 0 .3px 0 0 #ffeb3b!important;
+}
+
+input.yellow-input + label {
+    color: #ffeb3b!important ;
+}
